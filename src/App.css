@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Dancing+Script:wght@700&family=Montserrat:wght@600;700&display=swap');
+body {
+  font-family: "Montserrat" ;
+  background-image: url(Asset\ 2.png);
+}
+.root {
+  --primary-white:#ffffff;
+  --primary-orange:#181008 ;
+  --primary-dark: rgba(255,255,255, 0)
+}
+.navbar-custom {
+  background-color: #ffe7ca79;
+}
+
+nav a.nav-link {
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  cursor: pointer;
+}
+/*for link tag*/
+.navbar-nav {
+  text-transform: uppercase;
+  margin-left: 0.75rem;
+}
+/*for link tag*/
+.navbar-nav > li > a {
+  margin-right: 2.125rem;
+  margin-left: 0.75rem;
+  color: #020202 !important;
+  border-top: 0.1875rem solid var(--primary-dark);
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 5rem !important;
+}
+
+.navbar-brand > img {
+  height: 5rem;
+}
+
+/****************************Header*************************/
+
+
+.header_logo{
+  position: relative;
+  background: url(bg2.png);
+  background-size: cover;
+  background-position: center;
+  height: 94vh;
+}
+.main_info {
+  display: flex;
+  padding-top: 5%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  /* height: 10vw; */
+}
+.main_info h5 {
+  color: rgb(58, 14, 0);
+  font-size: 6vw;
+}
+
+.info_2 p{
+  color:rgb(46, 0, 0);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2vw;
+  
+}
+
+.btn-1 {
+  padding-left: 45%;
+  padding-top: 2%; 
+}
+
+ 
+
+/************************************for product***********************/
